@@ -103,6 +103,6 @@ labels_bottom_pie = ['Smart phone user', 'Non Smart Phone User']
 plt.figure(figsize=(10, 10))
 plt.pie(user_bottom, autopct='%1.1f%%', explode=explode)
 plt.legend(labels_bottom_pie,  bbox_to_anchor=(1, 1))
-plt.savefig("22091559_6.png", dpi=300)
+plt.show()
 
 
